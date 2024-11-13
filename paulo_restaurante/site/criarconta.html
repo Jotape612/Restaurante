@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generico - Criar Conta</title>
+    <link rel="stylesheet" href="../site/css/criarconta.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/css/bootstrap.min.css">
+    <style>
+        body {
+            background-image: url('../imagens/pngtree-round-of-pizza-on-wooden-plate-png-image_11573438-removebg-preview.png');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Restaurante Genérico</a>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#about">Sobre Nós</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#menu">Menu</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#review">Avaliações</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#order">Contato</a></li>
+                    </ul>
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link" href="../site/login.html">Login</a></li>
+                        <li class="nav-item"><a class="nav-link" href="../site/criarconta.html">Registrar</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container mt-5">
+        <div class="logo text-center mb-3">
+            <img src="logo.png" alt="Logo Generico" class="img-fluid" style="max-width: 200px;">
+        </div>
+        <h1 class="text-center">Criar Conta</h1>
+        <form action="#">
+            <input type="text" placeholder="Nome completo" required class="form-control my-2">
+            <input type="email" placeholder="E-mail ou CPF" required class="form-control my-2">
+            <input type="password" placeholder="Senha" required class="form-control my-2">
+            <input type="password" placeholder="Repita a senha" required class="form-control my-2">
+            <div class="checkbox my-3">
+                <input type="checkbox" id="termos" required>
+                <label for="termos">Concordo com termos e condições da empresa. <a href="termos.html">Ler termos</a></label>  
+            </div>
+            <button type="submit" class="btn btn-primary w-100">Acessar</button>
+        </form>
+        <div class="text-center mt-3">
+            <a href="login.html" class="link-color">Já tem uma conta?</a>
+        </div>
+    </div>
+    
+    <footer class="footer text-center py-4">
+        <img src="logo-generico.png" alt="GENERICO: Melhor comida genérica" class="img-fluid" style="max-width: 200px;">
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
